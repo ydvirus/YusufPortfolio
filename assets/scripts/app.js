@@ -83,3 +83,6 @@ const Portfolio = function() {
 
 Portfolio.displayWordCloud();
 Portfolio.typeAnimation();
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
